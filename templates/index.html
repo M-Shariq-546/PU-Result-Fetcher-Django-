@@ -1,0 +1,7 @@
+<!-- student_info/templates/student_info/student_form.html -->
+<form method="POST" action="results/">
+  {% csrf_token %}
+  <label for="roll_no">Roll No:</label>
+  <input type="text" id="roll_no" name="roll_no">
+  <button type="submit">Get Student Data</button>
+</form>
